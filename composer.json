@@ -1,0 +1,17 @@
+{
+    "name": "guzzlehttp/guzzle",
+    "description": "Guzzle http client za REST pozive",
+    "autoload": {
+        "psr-4": {
+            "Guzzlehttp\\Guzzle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mrvic",
+            "email": "mrvic.predrag@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
