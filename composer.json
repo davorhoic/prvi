@@ -1,9 +1,9 @@
 {
-    "name": "guzzlehttp/guzzle",
-    "description": "Guzzle http client za REST pozive",
+    "name": "pmrvic/prva",
+    "description": "prvi projekt sa composerom",
     "autoload": {
         "psr-4": {
-            "Guzzlehttp\\Guzzle\\": "src/"
+            "pmrvic\\prvi\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "psr/log": "^3.0",
+        "guzzlehttp/guzzle":"7.8.*"
+    }
 }
