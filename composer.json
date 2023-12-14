@@ -16,6 +16,7 @@
     "require": {
         "psr/log": "^3.0",
         "guzzlehttp/guzzle":"7.8.*",
-        "nesbot/carbon": "dev-master"
+        "nesbot/carbon": "dev-master",
+        "cocur/slugify":"^4.5.0"
     }
 }
