@@ -2,7 +2,8 @@
 $polazniciJson = file_get_contents('polaznici.json');
 $polazniciArray = json_decode($polazniciJson, true);
 //print_r($polaznici);
-function getTablicaPolaznika($polaznici) {
+function getTablicaPolaznika($polaznici)
+{
     $table = '<table border=1>';
     $table .= '<thead>
     <td>Ime</td>
@@ -20,11 +21,10 @@ function getTablicaPolaznika($polaznici) {
             $polaznik['Telefon'] . "</td></tr>";
     }
     $table .= "</tbody></table";
-    return $table;    
+    return $table;
 }
-echo getTablicaPolaznika($polazniciArray);
+print getTablicaPolaznika($polazniciArray);
 
-echo"<hr>";
 $polazniciArray[] = [
     "Ime" => "Zdravko",
     "Prezime" => "Mamić",
@@ -38,4 +38,4 @@ file_put_contents('polaznici.json', $polazniciJson);
 $polazniciJson = file_get_contents('polaznici.json');
 $polazniciArray = json_decode($polazniciJson, true);
 //print_r($polaznici);
-echo getTablicaPolaznika($polazniciArray);
+print getTablicaPolaznika($polazniciArray);
