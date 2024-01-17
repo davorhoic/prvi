@@ -1,0 +1,51 @@
+[
+    {
+        "Ime": "Ivan",
+        "Prezime": "Horvat",
+        "Godine": 35,
+        "Email": "ivan.horvat@gmail.com",
+        "Telefon": 38591222333
+    },
+    {
+        "Ime": "Ana",
+        "Prezime": "Mi\u0161ak",
+        "Godine": 25,
+        "Email": "ana.misak@gmail.com",
+        "Telefon": 38591333444
+    },
+    {
+        "Ime": "Kristina",
+        "Prezime": "Kristi\u0107",
+        "Godine": 31,
+        "Email": "kristina.kristic@gmail.com",
+        "Telefon": 38591444555
+    },
+    {
+        "Ime": "Mirko",
+        "Prezime": "Mrkan",
+        "Godine": 45,
+        "Email": "mirko.mrkan@gmail.com",
+        "Telefon": 38591555666
+    },
+    {
+        "Ime": "Zdravko",
+        "Prezime": "Mami\u0107",
+        "Godine": 62,
+        "Email": "zdravko.mamic@gmail.com",
+        "Telefon": 38591666777
+    },
+    {
+        "Ime": "Zdravko",
+        "Prezime": "Mami\u0107",
+        "Godine": 62,
+        "Email": "zdravko.mamic@gmail.com",
+        "Telefon": 38591666777
+    },
+    {
+        "Ime": "Zdravko",
+        "Prezime": "Mami\u0107",
+        "Godine": 62,
+        "Email": "zdravko.mamic@gmail.com",
+        "Telefon": 38591666777
+    }
+]

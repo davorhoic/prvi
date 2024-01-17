@@ -1,0 +1,27 @@
+<?php
+$booksJson = file_get_contents(__DIR__ . '\knjige.json');
+
+$books = json_decode($booksJson, true);
+
+$books[] = [
+    'title' => "One Hundred Years Of Solitude",
+    'author' => "Gabriel Garcia Marquez",
+    'available' => false,
+    'pages' => 457,
+    'isbn' => 9785267006323
+];
+$books[] = [
+    'title' => "Tibet",
+    'author' => "Ja",
+    'available' => true,
+    'pages' => 45,
+    'isbn' => 98721354487
+];
+
+print_r($books);
+
+$books = array_unique($books, SORT_REGULAR);
+
+$booksJson = json_encode($books, JSON_PRETTY_PRINT);
+file_put_contents('knjige.json', $booksJson);
+?>
