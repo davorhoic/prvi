@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+  }
+  form {
+    padding: 2em;
+    margin: 1em 1em;
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    box-shadow: 5px 5px 5px rgb(105, 104, 104);
+    background-color: bisque;
+    border-radius: 10px;
+  }
+  input{
+    margin-bottom: 1em;
+  }
+input[type=submit]{
+    width: 50%;
+    align-self: center;
+    margin-top: 1em;
+}
+
+    

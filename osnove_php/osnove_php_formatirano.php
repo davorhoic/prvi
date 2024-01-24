@@ -301,5 +301,34 @@ print_r($booksJson);
 $booksArray = json_decode($booksJson, true);
 print_r($booksArray);
 
+// čitanje sadržaja datoteke
+$booksJson = file_get_contents('knjige.json');
+// prebacivanje u niz
+$books = json_decode($booksJson, true);
+// Dodavanje novih podataka u niz
+$books[] = [
+    "title" => "One Hundred Years Of Solitude",
+    "author" => "Gabriel Garcia Marquez",
+    "available" => false,
+    "pages" => 457,
+    "isbn" => 9785267006323
+];
+// Transformiranje u JSON
+$booksJson = json_encode($books);
+// Zapisivanje novih podataka u datoteku
+file_put_contents('knjige.json', $booksJson);
+
+<?php
+$submitted=!empty($_POST);
+$submitted=!empty($_POST['pritisnuto']);
+print_r($_POST);
+
+?>
+<p>Form Submitted? <?php echo $submitted;?></p>
+<p>Your login info is</p>
+<ul>
+    <li><b>username</b>: <?php echo $_POST['username'];?></li>
+    <li><b>password</b>: <?php echo $_POST['password'];?></li>
+</ul>
 
 ?>

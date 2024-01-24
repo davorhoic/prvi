@@ -1,0 +1,56 @@
+[
+    {
+        "rijec": "test",
+        "slova": 4,
+        "suglasnika": 3,
+        "samoglasnika": 1
+    },
+    {
+        "rijec": "developer",
+        "slova": 9,
+        "suglasnika": 5,
+        "samoglasnika": 4
+    },
+    {
+        "rijec": "\u017du\u017ei",
+        "slova": 4,
+        "samoglasnika": 2,
+        "suglasnika": 2
+    },
+    {
+        "rijec": "Njonjo",
+        "slova": 4,
+        "samoglasnika": 2,
+        "suglasnika": 2
+    },
+    {
+        "rijec": "Albina",
+        "slova": 6,
+        "samoglasnika": 3,
+        "suglasnika": 3
+    },
+    {
+        "rijec": "\u0110ur\u0111a",
+        "slova": 5,
+        "samoglasnika": 2,
+        "suglasnika": 3
+    },
+    {
+        "rijec": "\u017earko",
+        "slova": 5,
+        "samoglasnika": 2,
+        "suglasnika": 3
+    },
+    {
+        "rijec": "bad\u017ea",
+        "slova": 5,
+        "samoglasnika": 2,
+        "suglasnika": 3
+    },
+    {
+        "rijec": "D\u017eafer",
+        "slova": 5,
+        "samoglasnika": 2,
+        "suglasnika": 3
+    }
+]

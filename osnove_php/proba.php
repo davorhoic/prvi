@@ -1,17 +1,10 @@
 <?php
-// čitanje sadržaja datoteke
-$booksJson = file_get_contents('knjige.json');
-// prebacivanje u niz
-$books = json_decode($booksJson, true);
-// Dodavanje novih podataka u niz
-$books[] = [
-    "title" => "One Hundred Years Of Solitude",
-    "author" => "Gabriel Garcia Marquez",
-    "available" => false,
-    "pages" => 457,
-    "isbn" => 9785267006323
-];
-// Transformiranje u JSON
-$booksJson = json_encode($books);
-// Zapisivanje novih podataka u datoteku
-file_put_contents('knjige.json', $booksJson);
+$looking = isset($_GET['title']) || isset($_GET['author']);
+?>
+
+<p>You're looking? <?php echo (int) $looking; ?></p>
+<p>The book you are looking for is </p>
+<ul>
+    <li><b>Title</b>: <?php echo $_GET['title']; ?></li>
+    <li><b>Author</b>: <?php echo $_GET['author']; ?></li>
+</ul>
