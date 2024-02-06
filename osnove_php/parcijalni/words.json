@@ -52,5 +52,11 @@
         "slova": 5,
         "samoglasnika": 2,
         "suglasnika": 3
+    },
+    {
+        "rijec": "manja",
+        "slova": 4,
+        "samoglasnika": 2,
+        "suglasnika": 2
     }
 ]
