@@ -24,4 +24,4 @@ WHERE
 
 DELETE FROM zanr 
 WHERE
-    sifraZanra = 3;
+    sifraZanra = (SELECT MAX(sifrazanra) FROM zanr);
