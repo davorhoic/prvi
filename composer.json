@@ -3,7 +3,9 @@
     "description": "prvi projekt sa composerom",
     "autoload": {
         "psr-4": {
-            "pmrvic\\prvi\\": "src/"
+            "pmrvic\\prvi\\": "src/",
+            "HDapp\\":"src/Vjezbe/Vjezba2/HDnasljedjivanje/",
+            "DesignPatterns\\":"DesignPatternsPHP/"
         }
     },
     "authors": [
@@ -18,5 +20,9 @@
         "guzzlehttp/guzzle":"7.8.*",
         "nesbot/carbon": "dev-master",
         "cocur/slugify":"^4.5.0"
+    }, 
+    "require-dev":{
+        "phpunit/phpunit": "^11.0",
+        "mockery/mockery": "^1.6"
     }
 }
